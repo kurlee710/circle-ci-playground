@@ -34,7 +34,7 @@ jobs:
             echo "Deploying to Render production"
             curl $RENDER_PRODUCTION_DEPLOYHOOK
 
-workflows:
+workflows:gi
   run-tests-and-deploy-to-staging-then-production:
     jobs:
       - start-server
